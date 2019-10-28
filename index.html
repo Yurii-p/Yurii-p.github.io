@@ -1,120 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Love Timer</title>
 
-  <title>Love Timer</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/vegas.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+  </head>
 
-
-  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/vegas.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-
-</head>
-
-<body>
-  <div class="page-wrapper">
-  <div class="bg-wraper overlay has-vignette gallery">
-    <div id="example" class="slider opacity-50 vegas-container" style="height: 983px;"></div>
-  </div>
-
-  <!-- Coundown Section Start -->
-  <section class="countdown-timer">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="heading-count">
-            <h2>IN LOVE:</h2>
-          </div>
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="row time-countdown justify-content-center">
-            <div id="clock" class="time-count"></div>
-          </div>
-        </div>
+  <body>
+    <div class="page-wrapper">
+      <div class="bg-wraper overlay has-vignette gallery">
+        <div
+          id="example"
+          class="slider opacity-50 vegas-container"
+          style="height: 983px;"
+        ></div>
       </div>
+
+      <!-- Coundown Section Start -->
+      <section class="countdown-timer">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="heading-count">
+                <h2>IN LOVE:</h2>
+              </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="row time-countdown justify-content-center">
+                <div id="clock" class="time-count"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Coundown Section End -->
     </div>
-  </section>
-  <!-- Coundown Section End -->
-</div>
-  <!-- Preloader -->
-  <div id="preloader">
-    <div class="loader" id="loader-1"></div>
-  </div>
-  <!-- End Preloader -->
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
 
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="assets/js/jquery-min.js"></script>
-  <script src="assets/js/popper.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/vegas.min.js"></script>
-  <script src="assets/js/jquery.countdown.js"></script>
-  <script src="assets/js/jquery.easing.min.js"></script>
-  <script src="assets/js/jquery.slicknav.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script type="text/javascript">
-    $("#example").vegas({
-      timer: false,
-      cover: true,
-      delay: 6000,
-      transitionDuration: 2000,
-      transition: "blur",
-      slides: [{
-          src: "assets/img/1.jpg"
-        },
-        {
-          src: "assets/img/2.jpg"
-        },
-        {
-          src: "assets/img/3.jpg"
-        },
-        {
-          src: "assets/img/4.jpg"
-        },
-        {
-          src: "assets/img/5.jpg"
-        },
-        {
-          src: "assets/img/6.jpg"
-        },
-        {
-          src: "assets/img/7.jpg"
-        },
-        {
-          src: "assets/img/8.jpg"
-        },
-        {
-          src: "assets/img/9.jpg"
-        },
-        {
-          src: "assets/img/10.jpg"
-        },
-        {
-          src: "assets/img/11.jpg"
-        },
-        {
-          src: "assets/img/12.jpg"
-        },
-        {
-          src: "assets/img/13.jpg"
-        },
-        {
-          src: "assets/img/14.jpg"
-        },
-        {
-          src: "assets/img/15.jpg"
-        },
-      ]
-    });
-  </script>
-
-</body>
-
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/vegas.min.js"></script>
+    <script src="assets/js/jquery.countdown.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+      $("#example").vegas({
+        timer: false,
+        cover: true,
+        delay: 6000,
+        transitionDuration: 2000,
+        transition: "blur",
+        slides: [
+          {
+            src: "assets/img/1.jpg"
+          },
+          {
+            src: "assets/img/2.jpg"
+          },
+          {
+            src: "assets/img/3.jpg"
+          },
+          {
+            src: "assets/img/4.jpg"
+          },
+          {
+            src: "assets/img/5.jpg"
+          },
+          {
+            src: "assets/img/6.jpg"
+          },
+          {
+            src: "assets/img/7.jpg"
+          },
+          {
+            src: "assets/img/8.jpg"
+          },
+          {
+            src: "assets/img/9.jpg"
+          },
+          {
+            src: "assets/img/10.jpg"
+          },
+          {
+            src: "assets/img/11.jpg"
+          },
+          {
+            src: "assets/img/12.jpg"
+          },
+          {
+            src: "assets/img/13.jpg"
+          },
+          {
+            src: "assets/img/14.jpg"
+          },
+          {
+            src: "assets/img/15.jpg"
+          }
+        ]
+      });
+    </script>
+  </body>
 </html>
